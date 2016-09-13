@@ -7,12 +7,13 @@
     <script src="main.js"></script>
 </head>
 <body>
-    <canvas height="600" width="800" id="canvas"></canvas>
-    <p>
-        <label>a: <input type="text" id="fielda"></label><br/>
-        <label>b: <input type="text" id="fieldb"></label><br/>
-        <label>x0: <input type="text" id="fieldx0"></label><br/>
-        <input type="button" value="Submit">
-    </p>
+<canvas height="600" width="800" id="canvas"></canvas>
+<p>
+    <label>a: <input type="text" id="fielda" value="-5"></label><br/>
+    <label>b: <input type="text" id="fieldb" value="5"></label><br/>
+    <label>x0: <input type="text" id="fieldx0"></label><br/>
+    <label>eps: <input type="text" id="fieldeps" value="0.0001"></label><br/>
+    <input type="button" value="Submit" onclick="onClick()">
+</p>
 </body>
 </html>
